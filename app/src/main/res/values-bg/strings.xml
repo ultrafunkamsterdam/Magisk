@@ -69,7 +69,12 @@
     <string name="settings_update_stable">Стабилен</string>
     <string name="settings_update_beta">Бета</string>
     <string name="settings_update_custom">Потребителски</string>
+<<<<<<< HEAD
     <string name="settings_update_custom_msg">Въведете потребителски адрес</string>
+=======
+    <string name="settings_update_custom_msg">Въведете потребителски URL</string>
+    <string name="settings_magiskhide_summary">Скриване на Magisk от различни детектори.</string>
+>>>>>>> parent of 65b0ea792 (MagiskHide is no more)
     <string name="settings_hosts_title">Несистемни хостове</string>
     <string name="settings_hosts_summary">Поддръжка на несистемни хостове за използване на приложения, блокиращи реклами.</string>
     <string name="settings_hosts_toast">Добавен е модул с несистемни хостове.</string>

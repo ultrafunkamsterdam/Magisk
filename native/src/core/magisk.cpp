@@ -37,7 +37,6 @@ Advanced Options (Internal APIs):
    --clone SRC DEST          clone SRC to DEST
    --sqlite SQL              exec SQL commands to Magisk database
    --path                    print Magisk tmpfs mount path
-   --denylist ARGS           denylist config CLI
 
 Available applets:
 )EOF");
@@ -96,6 +95,7 @@ int magisk_main(int argc, char *argv[]) {
         close(connect_daemon(MainRequest::LATE_START, true));
         return 0;
     } else if (argv[1] == "--boot-complete"sv) {
+<<<<<<< HEAD:native/src/core/magisk.cpp
         close(connect_daemon(MainRequest::BOOT_COMPLETE));
         return 0;
     } else if (argv[1] == "--zygote-restart"sv) {
@@ -105,6 +105,14 @@ int magisk_main(int argc, char *argv[]) {
         return denylist_cli(argc - 1, argv + 1);
     } else if (argc >= 3 && argv[1] == "--sqlite"sv) {
         int fd = connect_daemon(MainRequest::SQLITE_CMD);
+=======
+        int fd = connect_daemon(true);
+        write_int(fd, BOOT_COMPLETE);
+        return read_int(fd);
+    } else if (argc >= 3 && argv[1] == "--sqlite"sv) {
+        int fd = connect_daemon();
+        write_int(fd, SQLITE_CMD);
+>>>>>>> parent of 65b0ea792 (MagiskHide is no more):native/jni/core/magisk.cpp
         write_string(fd, argv[2]);
         string res;
         for (;;) {

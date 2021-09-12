@@ -129,6 +129,7 @@
     <string name="settings_update_channel_title">Canal de Atualização</string>
     <string name="settings_update_stable">Estável</string>
     <string name="settings_update_beta">Beta</string>
+<<<<<<< HEAD
     <string name="settings_update_custom">Canal Personalizado</string>
     <string name="settings_update_custom_msg">Insira um URL personalizado</string>
     <string name="settings_zygisk_summary">Executa partes do Magisk no Zygote</string>
@@ -146,6 +147,15 @@
     <string name="settings_su_app_adb">Aplicativos e ADB</string>
     <string name="settings_su_app">Apenas aplicativos</string>
     <string name="settings_su_adb">Apenas ADB</string>
+=======
+    <string name="settings_magiskhide_summary">Oculta Magisk de várias deteções</string>
+    <string name="settings_hosts_title">Ativar systemless hosts</string>
+    <string name="settings_hosts_summary">Suporte de systemless para aplicações Adblock</string>
+
+    <string name="settings_su_app_adb">Aplicações e ADB</string>
+    <string name="settings_su_app">Somente Aplicações</string>
+    <string name="settings_su_adb">Somente ADB</string>
+>>>>>>> parent of 65b0ea792 (MagiskHide is no more)
     <string name="settings_su_disable">Desativado</string>
     <string name="settings_su_request_10">10 segundos</string>
     <string name="settings_su_request_15">15 segundos</string>

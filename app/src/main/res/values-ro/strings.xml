@@ -133,6 +133,7 @@
     <string name="settings_update_channel_title">Canal de actualizare</string>
     <string name="settings_update_stable">Stabil</string>
     <string name="settings_update_beta">Beta</string>
+<<<<<<< HEAD
     <string name="settings_update_custom">Personalizat</string>
     <string name="settings_update_custom_msg">Inserează un URL pentru canal personalizat</string>
     <string name="settings_zygisk_summary">Rulează părți ale Magisk în daemonul zygote</string>
@@ -141,6 +142,11 @@
     <string name="settings_denylist_error">Această funcție necesită ca %1$s să fie activat</string>
     <string name="settings_denylist_config_title">Configurează lista de refuzări</string>
     <string name="settings_denylist_config_summary">Selectează procesele care vor fi incluse în lista de refuzări</string>
+=======
+    <string name="settings_update_custom">Canal personalizat</string>
+    <string name="settings_update_custom_msg">Inserează un URL personalizat</string>
+    <string name="settings_magiskhide_summary">Ascunde Magisk de diferite forme de detectare</string>
+>>>>>>> parent of 65b0ea792 (MagiskHide is no more)
     <string name="settings_hosts_title">Fișier hosts în afara partiției system</string>
     <string name="settings_hosts_summary">Suport pentru fișierul hosts în afara partiției system, în cazul aplicațiilor care blochează reclame</string>
     <string name="settings_hosts_toast">Modulul pentru fișierul hosts în afara partiției system, adăugat</string>

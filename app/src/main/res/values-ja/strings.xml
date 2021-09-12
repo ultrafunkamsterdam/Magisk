@@ -135,12 +135,16 @@
     <string name="settings_update_beta">ベータ版</string>
     <string name="settings_update_custom">カスタム</string>
     <string name="settings_update_custom_msg">カスタム URL を入力</string>
+<<<<<<< HEAD
     <string name="settings_zygisk_summary">Magisk の一部を zygote デーモン上で実行します</string>
     <string name="settings_denylist_title">DenyList を適用</string>
     <string name="settings_denylist_summary">DenyList 内のプロセスは Magisk の変更がすべて戻されます</string>
     <string name="settings_denylist_error">この機能を使用するには %1$s が有効化されている必要があります</string>
     <string name="settings_denylist_config_title">DenyList を構成</string>
     <string name="settings_denylist_config_summary">DenyList に含めるプロセスを選択します</string>
+=======
+    <string name="settings_magiskhide_summary">さまざまな検出方法から Magisk を隠します</string>
+>>>>>>> parent of 65b0ea792 (MagiskHide is no more)
     <string name="settings_hosts_title">Systemless hosts</string>
     <string name="settings_hosts_summary">広告ブロックアプリのための Systemless hosts サポートを有効化します</string>
     <string name="settings_hosts_toast">Systemless hosts モジュールを追加しました</string>

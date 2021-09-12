@@ -131,6 +131,7 @@
     <string name="settings_update_beta">Beta</string>
     <string name="settings_update_custom">Canal Personalizado</string>
     <string name="settings_update_custom_msg">Insira um URL personalizado</string>
+<<<<<<< HEAD
     <string name="settings_zygisk_summary">Executa partes do Magisk no Zygote</string>
     <string name="settings_denylist_title">Forçar Aplicação da Lista de Negação</string>
     <string name="settings_denylist_summary">Os processos na lista de negação terão revertidas todas as modificações feitas pelo Magisk</string>
@@ -140,6 +141,12 @@
     <string name="settings_hosts_title">Ativar /etc/hosts systemless</string>
     <string name="settings_hosts_summary">Suporte de /etc/hosts fora do sistema para aplicativos Adblock</string>
     <string name="settings_hosts_toast">Adicionado módulo do /etc/hosts systemless</string>
+=======
+    <string name="settings_magiskhide_summary">Esconda o Magisk de várias formas de detecção</string>
+    <string name="settings_hosts_title">Hosts sem sistema</string>
+    <string name="settings_hosts_summary">Suporte de hosts sem sistema para aplicativos Adblock</string>
+    <string name="settings_hosts_toast">Adicionado módulo de hosts sem sistema</string>
+>>>>>>> parent of 65b0ea792 (MagiskHide is no more)
     <string name="settings_app_name_hint">Novo nome</string>
     <string name="settings_app_name_helper">O app do Magisk será reinstalado com este nome</string>
     <string name="settings_app_name_error">Formato inválido</string>

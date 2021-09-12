@@ -64,6 +64,9 @@ object Config : PreferenceConfig, DBConfig {
         const val BOOT_ID = "boot_id"
         const val ASKED_HOME = "asked_home"
         const val DOH = "doh"
+
+        // system state
+        const val MAGISKHIDE = "magiskhide"
     }
 
     object Value {
@@ -147,6 +150,7 @@ object Config : PreferenceConfig, DBConfig {
             }
         }
     var doh by preference(Key.DOH, false)
+    var magiskHide by preference(Key.MAGISKHIDE, true)
     var showSystemApp by preference(Key.SHOW_SYSTEM_APP, false)
 
     var customChannelUrl by preference(Key.CUSTOM_CHANNEL, "")

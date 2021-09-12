@@ -28,7 +28,12 @@ extern std::string  MAGISKTMP;
 #define ZYGISKBIN   INTLROOT "/zygisk"
 #define SELINUXMOCK INTLROOT "/selinux"
 
+<<<<<<< HEAD:native/src/include/magisk.hpp
 constexpr const char *applet_names[] = { "su", "resetprop", nullptr };
+=======
+constexpr const char *applet_names[] = { "su", "resetprop", "magiskhide", nullptr };
+constexpr const char *init_applet[] = { "magiskpolicy", "supolicy", nullptr };
+>>>>>>> parent of 65b0ea792 (MagiskHide is no more):native/jni/include/magisk.hpp
 
 #define POST_FS_DATA_WAIT_TIME       40
 #define POST_FS_DATA_SCRIPT_MAX_TIME 35
@@ -38,6 +43,11 @@ extern int SDK_INT;
 
 // Multi-call entrypoints
 int magisk_main(int argc, char *argv[]);
+<<<<<<< HEAD:native/src/include/magisk.hpp
+=======
+int magiskhide_main(int argc, char *argv[]);
+int magiskpolicy_main(int argc, char *argv[]);
+>>>>>>> parent of 65b0ea792 (MagiskHide is no more):native/jni/include/magisk.hpp
 int su_client_main(int argc, char *argv[]);
 int resetprop_main(int argc, char *argv[]);
 int app_process_main(int argc, char *argv[]);

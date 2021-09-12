@@ -220,6 +220,7 @@ object Magisk : BaseSettingsItem.Section() {
     override val title = R.string.magisk.asText()
 }
 
+<<<<<<< HEAD
 object Zygisk : BaseSettingsItem.Toggle() {
     override val title = R.string.zygisk.asText()
     override val description get() =
@@ -260,6 +261,17 @@ object DenyList : BaseSettingsItem.Toggle() {
                     field = !value
                     notifyPropertyChanged(BR.checked)
                 }
+=======
+object MagiskHide : BaseSettingsItem.Toggle() {
+    override val title = R.string.magiskhide.asText()
+    override val description = R.string.settings_magiskhide_summary.asText()
+    override var value = Config.magiskHide
+        set(value) = setV(value, field, { field = it }) {
+            val cmd = if (it) "enable" else "disable"
+            Shell.su("magiskhide $cmd").submit { cb ->
+                if (cb.isSuccess) Config.magiskHide = it
+                else field = !it
+>>>>>>> parent of 65b0ea792 (MagiskHide is no more)
             }
         }
 

@@ -133,12 +133,16 @@
     <string name="settings_update_beta">Beta</string>
     <string name="settings_update_custom">Własny kanał</string>
     <string name="settings_update_custom_msg">Wprowadź adres URL własnego kanału</string>
+<<<<<<< HEAD
     <string name="settings_zygisk_summary">Uruchom cześć Magiska w zygocie Demona</string>
     <string name="settings_denylist_title">Wymuś Listę Odmów</string>
     <string name="settings_denylist_summary">Procesy z Listy Odmów będą miały wszystkie modyfikacje Magisk cofnięte</string>
     <string name="settings_denylist_error">Ta funkcja wymaga aby %1$s było włączone</string>
     <string name="settings_denylist_config_title">Ustaw Listę Odmów</string>
     <string name="settings_denylist_config_summary">Wybierz proces który ma zostać zawarty w Liście Odmów</string>
+=======
+    <string name="settings_magiskhide_summary">Ukryj Magisk przed różnymi formami detekcji</string>
+>>>>>>> parent of 65b0ea792 (MagiskHide is no more)
     <string name="settings_hosts_title">Hosty Systemless</string>
     <string name="settings_hosts_summary">Wsparcie hostów Systemless dla aplikacji typu Adblock</string>
     <string name="settings_hosts_toast">Dodano moduł hostów Systemless</string>

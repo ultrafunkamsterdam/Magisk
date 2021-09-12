@@ -44,7 +44,11 @@ open class Receiver : BaseReceiver() {
                 getUid(intent)?.let { rmPolicy(it) }
             }
             Intent.ACTION_PACKAGE_FULLY_REMOVED -> {
+<<<<<<< HEAD
                 getPkg(intent)?.let { Shell.cmd("magisk --denylist rm $it").submit() }
+=======
+                getPkg(intent)?.let { Shell.su("magiskhide rm $it").submit() }
+>>>>>>> parent of 65b0ea792 (MagiskHide is no more)
             }
             Intent.ACTION_LOCALE_CHANGED -> Shortcuts.setupDynamic(context)
             Intent.ACTION_MY_PACKAGE_REPLACED -> {

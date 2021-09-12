@@ -8,7 +8,11 @@
     <string name="install">Install</string>
     <string name="section_home">Home</string>
     <string name="section_theme">Themes</string>
+<<<<<<< HEAD
     <string name="denylist">DenyList</string>
+=======
+    <string name="safetynet">SafetyNet</string>
+>>>>>>> parent of 65b0ea792 (MagiskHide is no more)
 
     <!--Home-->
     <string name="no_connection">No connection available</string>
@@ -133,6 +137,7 @@
     <string name="settings_update_channel_title">Update Channel</string>
     <string name="settings_update_stable">Stable</string>
     <string name="settings_update_beta">Beta</string>
+<<<<<<< HEAD
     <string name="settings_update_custom">Custom</string>
     <string name="settings_update_custom_msg">Insert a custom channel URL</string>
     <string name="settings_zygisk_summary">Run parts of Magisk in the zygote daemon</string>
@@ -141,6 +146,11 @@
     <string name="settings_denylist_error">This feature requires %1$s to be enabled</string>
     <string name="settings_denylist_config_title">Configure DenyList</string>
     <string name="settings_denylist_config_summary">Select the processes to be included on the denylist</string>
+=======
+    <string name="settings_update_custom">Custom Channel</string>
+    <string name="settings_update_custom_msg">Insert a custom URL</string>
+    <string name="settings_magiskhide_summary">Hide Magisk from various forms of detection</string>
+>>>>>>> parent of 65b0ea792 (MagiskHide is no more)
     <string name="settings_hosts_title">Systemless hosts</string>
     <string name="settings_hosts_summary">Systemless hosts support for ad blocking apps</string>
     <string name="settings_hosts_toast">Added systemless hosts module</string>

@@ -131,6 +131,7 @@
     <string name="settings_update_channel_title">Canale di aggiornamento</string>
     <string name="settings_update_stable">Stabile</string>
     <string name="settings_update_beta">Beta</string>
+<<<<<<< HEAD
     <string name="settings_update_custom">Personalizzato</string>
     <string name="settings_update_custom_msg">Inserisci l\'URL del canale personalizzato</string>
     <string name="settings_zygisk_summary">Esegui parti di Magisk nel processo zygote</string>
@@ -139,6 +140,11 @@
     <string name="settings_denylist_error">Questa funzione richiede che %1$s sia abilitato</string>
     <string name="settings_denylist_config_title">Configura lista di blocco</string>
     <string name="settings_denylist_config_summary">Seleziona i processi da includere nella lista di blocco</string>
+=======
+    <string name="settings_update_custom">Canale personalizzato</string>
+    <string name="settings_update_custom_msg">Inserisci un URL personalizzato</string>
+    <string name="settings_magiskhide_summary">Nasconde Magisk da numerosi sistemi di rilevazione</string>
+>>>>>>> parent of 65b0ea792 (MagiskHide is no more)
     <string name="settings_hosts_title">File hosts systemless</string>
     <string name="settings_hosts_summary">Supporto al file hosts systemless per le app che bloccano le pubblicità</string>
     <string name="settings_hosts_toast">Aggiunto modulo per il supporto al file hosts systemless</string>

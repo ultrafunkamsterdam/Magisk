@@ -62,11 +62,14 @@ class SettingsViewModel : BaseViewModel(), BaseSettingsItem.Handler {
         if (Info.env.isActive) {
             list.addAll(listOf(
                 Magisk,
-                SystemlessHosts
+                MagiskHide, SystemlessHosts
             ))
+<<<<<<< HEAD
             if (Const.Version.atLeast_24_0()) {
                 list.addAll(listOf(Zygisk, DenyList, DenyListConfig))
             }
+=======
+>>>>>>> parent of 65b0ea792 (MagiskHide is no more)
         }
 
         // Superuser

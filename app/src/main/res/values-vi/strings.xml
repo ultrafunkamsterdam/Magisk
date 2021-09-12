@@ -44,10 +44,62 @@
     <string name="install_inactive_slot">Cài đặt vào vùng không hoạt động (Sau OTA)</string>
     <string name="install_inactive_slot_msg">Thiết bị của bạn sẽ bị BUỘC khởi động vào vị trí không hoạt động hiện tại sau khi khởi động lại!\nChỉ sử dụng tùy chọn này sau khi hoàn tất OTA.\nTiếp tục chứ?</string>
     <string name="setup_title">Thiết lập bổ sung</string>
+<<<<<<< HEAD
     <string name="select_patch_file">Chọn và vá tệp</string>
     <string name="patch_file_msg">Chọn đĩa ảnh (*.img) hoặc tệp tarfile ODIN (*.tar)</string>
     <string name="reboot_delay_toast">Khởi động lại sau 5 giây…</string>
     <string name="flash_screen_title">Cài đặt</string>
+=======
+    <string name="setup_msg">Đang chạy thiết lập môi trường…</string>
+    <string name="download_file_error">Lỗi tải tập tin</string>
+
+    <!--Settings Activity -->
+    <string name="settings_clear_cache_title">Xoá bộ đệm kho</string>
+    <string name="settings_clear_cache_summary">Xoá thông tin được lưu trong bộ nhớ cache của các bản thử nghiệm trực tuyến. Điều này buộc ứng dụng phải làm mới trực tuyến.</string>
+    <string name="language">Ngôn ngữ</string>
+    <string name="system_default">(Mặc định hệ thống)</string>
+    <string name="settings_check_update_title">Kiểm tra cập nhật</string>
+    <string name="settings_check_update_summary">Định kỳ kiểm tra các bản cập nhật trong nền.</string>
+    <string name="settings_update_channel_title">Kênh cập nhật</string>
+    <string name="settings_update_stable">Ổn định</string>
+    <string name="settings_update_beta">Dùng thử</string>
+    <string name="settings_update_custom">Tuỳ chỉnh</string>
+    <string name="settings_update_custom_msg">Chèn URL tuỳ chỉnh</string>
+    <string name="settings_magiskhide_summary">Ẩn Magisk khỏi nhiều phương thức phát hiện</string>
+    <string name="settings_hosts_title">Systemless hosts</string>
+    <string name="settings_hosts_summary">Systemless hosts hỗ trợ các ứng dụng chặn quảng cáo</string>
+    <string name="settings_hosts_toast">Mô-đun được thêm vào systemless hosts</string>
+    <string name="settings_su_app_adb">Ứng dụng và ADB</string>
+    <string name="settings_su_app">Chỉ ứng dụng</string>
+    <string name="settings_su_adb">Chỉ ADB</string>
+    <string name="settings_su_disable">Đã vô hiệu</string>
+    <string name="settings_su_request_10">10 giây</string>
+    <string name="settings_su_request_15">15 giây</string>
+    <string name="settings_su_request_20">20 giây</string>
+    <string name="settings_su_request_30">30 giây</string>
+    <string name="settings_su_request_45">45 giây</string>
+    <string name="settings_su_request_60">60 giây</string>
+    <string name="superuser_access">Truy nhập Superuser</string>
+    <string name="auto_response">Tự phản hồi</string>
+    <string name="request_timeout">Thời gian chờ yêu cầu</string>
+    <string name="superuser_notification">Thông báo Superuser</string>
+    <string name="settings_su_reauth_title">Xác thực lại sau khi nâng cấp</string>
+    <string name="settings_su_reauth_summary">Xác thực lại quyền superuser sau khi nâng cấp ứng dụng</string>
+    <string name="multiuser_mode">Chế độ đa người dùng</string>
+    <string name="settings_owner_only">Chỉ chủ sở hữu thiết bị</string>
+    <string name="settings_owner_manage">Chủ sở hữu thiết bị được quản lý</string>
+    <string name="settings_user_independent">Người dùng độc lập</string>
+    <string name="owner_only_summary">Chỉ chủ sở hữu mới có quyền truy cập root.</string>
+    <string name="owner_manage_summary">Chỉ chủ sở hữu mới có thể quản lý quyền truy cập root và nhận lời nhắc yêu cầu.</string>
+    <string name="user_indepenent_summary">Mỗi người dùng có các quy tắc root riêng của mình.</string>
+    <string name="mount_namespace_mode">Chế độ không gian tên gắn kết</string>
+    <string name="settings_ns_global">Không gian tên chung</string>
+    <string name="settings_ns_requester">Không gian tên kế thừa</string>
+    <string name="settings_ns_isolate">Không gian tên độc lập</string>
+    <string name="global_summary">Tất cả các phiên root sử dụng không gian tên gắn kết chung.</string>
+    <string name="requester_summary">Các phiên root sẽ kế thừa không gian tên của người yêu cầu.</string>
+    <string name="isolate_summary">Mỗi phiên root sẽ có không gian tên riêng biệt.</string>
+>>>>>>> parent of 65b0ea792 (MagiskHide is no more)
 
     <!--Superuser-->
     <string name="su_request_title">Yêu cầu Superuser</string>

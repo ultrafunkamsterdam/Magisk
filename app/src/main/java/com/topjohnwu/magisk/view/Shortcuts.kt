@@ -64,6 +64,18 @@ object Shortcuts {
                     .build()
             )
         }
+        if (Info.env.magiskHide) {
+            shortCuts.add(
+                ShortcutInfo.Builder(context, Const.Nav.HIDE)
+                    .setShortLabel(context.getString(R.string.magiskhide))
+                    .setIntent(
+                        Intent(intent).putExtra(Const.Key.OPEN_SECTION, Const.Nav.HIDE)
+                    )
+                    .setIcon(context.getIcon(R.drawable.sc_magiskhide))
+                    .setRank(1)
+                    .build()
+            )
+        }
         if (Info.env.isActive) {
             shortCuts.add(
                 ShortcutInfo.Builder(context, Const.Nav.MODULES)
@@ -72,7 +84,7 @@ object Shortcuts {
                         Intent(intent).putExtra(Const.Key.OPEN_SECTION, Const.Nav.MODULES)
                     )
                     .setIcon(context.getIcon(R.drawable.sc_extension))
-                    .setRank(1)
+                    .setRank(2)
                     .build()
             )
         }

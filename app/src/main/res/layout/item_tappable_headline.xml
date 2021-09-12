@@ -48,7 +48,11 @@
                 app:layout_constraintEnd_toStartOf="@+id/headline_icon_pointer"
                 app:layout_constraintStart_toEndOf="@+id/tappable_icon"
                 app:layout_constraintTop_toTopOf="parent"
+<<<<<<< HEAD
                 tools:text="@string/settings_dark_mode_title" />
+=======
+                tools:text="@string/magiskhide" />
+>>>>>>> parent of 65b0ea792 (MagiskHide is no more)
 
             <ImageView
                 android:id="@+id/headline_icon_pointer"

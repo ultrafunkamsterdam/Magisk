@@ -38,8 +38,12 @@ constexpr const char *DB_SETTING_KEYS[] = {
     "root_access",
     "multiuser_mode",
     "mnt_ns",
+<<<<<<< HEAD:native/src/include/db.hpp
     "denylist",
     "zygisk"
+=======
+    "magiskhide"
+>>>>>>> parent of 65b0ea792 (MagiskHide is no more):native/jni/include/db.hpp
 };
 
 // Settings key indices
@@ -47,8 +51,12 @@ enum {
     ROOT_ACCESS = 0,
     SU_MULTIUSER_MODE,
     SU_MNT_NS,
+<<<<<<< HEAD:native/src/include/db.hpp
     DENYLIST_CONFIG,
     ZYGISK_CONFIG
+=======
+    HIDE_CONFIG
+>>>>>>> parent of 65b0ea792 (MagiskHide is no more):native/jni/include/db.hpp
 };
 
 // Values for root_access

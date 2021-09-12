@@ -52,6 +52,7 @@ object Info {
         }
     }
 
+<<<<<<< HEAD
     private fun loadState(): Env {
         val v = fastCmd("magisk -v").split(":".toRegex())
         return Env(
@@ -66,11 +67,34 @@ object Info {
         code: Int = -1
     ) {
         val versionCode = when {
+=======
+    private fun loadState() = Env(
+        fastCmd("magisk -v").split(":".toRegex())[0],
+        runCatching { fastCmd("magisk -V").toInt() }.getOrDefault(-1),
+        Shell.su("magiskhide status").exec().isSuccess
+    )
+
+    class Env(
+        val magiskVersionString: String = "",
+        code: Int = -1,
+        hide: Boolean = false
+    ) {
+        val magiskHide get() = Config.magiskHide
+        val magiskVersionCode = when {
+>>>>>>> parent of 65b0ea792 (MagiskHide is no more)
             code < Const.Version.MIN_VERCODE -> -1
             isRooted ->  code
             else -> -1
         }
         val isUnsupported = code > 0 && code < Const.Version.MIN_VERCODE
+<<<<<<< HEAD
         val isActive = versionCode > 0
+=======
+        val isActive = magiskVersionCode >= 0
+
+        init {
+            Config.magiskHide = hide
+        }
+>>>>>>> parent of 65b0ea792 (MagiskHide is no more)
     }
 }

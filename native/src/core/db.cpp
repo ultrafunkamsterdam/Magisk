@@ -7,7 +7,11 @@
 #include <socket.hpp>
 #include <base.hpp>
 
+<<<<<<< HEAD:native/src/core/db.cpp
 #define DB_VERSION 12
+=======
+#define DB_VERSION 10
+>>>>>>> parent of 65b0ea792 (MagiskHide is no more):native/jni/core/db.cpp
 
 using namespace std;
 
@@ -115,8 +119,12 @@ db_settings::db_settings() {
     data[ROOT_ACCESS] = ROOT_ACCESS_APPS_AND_ADB;
     data[SU_MULTIUSER_MODE] = MULTIUSER_MODE_OWNER_ONLY;
     data[SU_MNT_NS] = NAMESPACE_MODE_REQUESTER;
+<<<<<<< HEAD:native/src/core/db.cpp
     data[DENYLIST_CONFIG] = false;
     data[ZYGISK_CONFIG] = false;
+=======
+    data[HIDE_CONFIG] = false;
+>>>>>>> parent of 65b0ea792 (MagiskHide is no more):native/jni/core/db.cpp
 }
 
 int db_settings::get_idx(string_view key) const {
@@ -173,8 +181,23 @@ static char *open_and_init_db(sqlite3 *&db) {
                 "CREATE TABLE IF NOT EXISTS strings "
                 "(key TEXT, value TEXT, PRIMARY KEY(key))",
                 nullptr, nullptr, &err);
+<<<<<<< HEAD:native/src/core/db.cpp
     };
     auto create_denylist = [&] {
+=======
+        err_ret(err);
+        ver = 4;
+        upgrade = true;
+    }
+    if (ver < 5) {
+        sqlite3_exec(db, "UPDATE policies SET uid=uid%100000", nullptr, nullptr, &err);
+        err_ret(err);
+        /* Directly jump to version 6 */
+        ver = 6;
+        upgrade = true;
+    }
+    if (ver < 7) {
+>>>>>>> parent of 65b0ea792 (MagiskHide is no more):native/jni/core/db.cpp
         sqlite3_exec(db,
                 "CREATE TABLE IF NOT EXISTS denylist "
                 "(package_name TEXT, process TEXT, PRIMARY KEY(package_name, process))",
@@ -241,6 +264,7 @@ static char *open_and_init_db(sqlite3 *&db) {
         ver = 10;
         upgrade = true;
     }
+<<<<<<< HEAD:native/src/core/db.cpp
     if (ver == 10) {
         sqlite3_exec(db,
                 "DROP TABLE IF EXISTS hidelist;"
@@ -268,6 +292,8 @@ static char *open_and_init_db(sqlite3 *&db) {
         ver = 12;
         upgrade = true;
     }
+=======
+>>>>>>> parent of 65b0ea792 (MagiskHide is no more):native/jni/core/db.cpp
 
     if (upgrade) {
         // Set version

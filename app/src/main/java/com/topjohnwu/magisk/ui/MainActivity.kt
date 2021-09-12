@@ -79,6 +79,10 @@ class MainActivity : SplashActivity<ActivityMainMd2Binding>() {
                 R.id.homeFragment,
                 R.id.modulesFragment,
                 R.id.superuserFragment,
+<<<<<<< HEAD
+=======
+                R.id.hideFragment,
+>>>>>>> parent of 65b0ea792 (MagiskHide is no more)
                 R.id.logFragment -> true
                 else -> false
             }
@@ -154,6 +158,7 @@ class MainActivity : SplashActivity<ActivityMainMd2Binding>() {
     private fun getScreen(name: String?): NavDirections? {
         return when (name) {
             Const.Nav.SUPERUSER -> MainDirections.actionSuperuserFragment()
+            Const.Nav.HIDE -> MainDirections.actionHideFragment()
             Const.Nav.MODULES -> MainDirections.actionModuleFragment()
             Const.Nav.SETTINGS -> HomeFragmentDirections.actionHomeFragmentToSettingsFragment()
             else -> null
@@ -166,6 +171,10 @@ class MainActivity : SplashActivity<ActivityMainMd2Binding>() {
             R.id.modulesFragment -> MainDirections.actionModuleFragment()
             R.id.superuserFragment -> MainDirections.actionSuperuserFragment()
             R.id.logFragment -> MainDirections.actionLogFragment()
+<<<<<<< HEAD
+=======
+            R.id.hideFragment -> MainDirections.actionHideFragment()
+>>>>>>> parent of 65b0ea792 (MagiskHide is no more)
             else -> null
         }
     }

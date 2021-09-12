@@ -135,12 +135,16 @@
     <string name="settings_update_beta">Beta</string>
     <string name="settings_update_custom">Saluran khusus</string>
     <string name="settings_update_custom_msg">Masukkan URL khusus</string>
+<<<<<<< HEAD
     <string name="settings_zygisk_summary">Jalankan bagian-bagian Magisk dalam zygote daemon</string>
     <string name="settings_denylist_title">Paksa DenyList</string>
     <string name="settings_denylist_summary">Proses pada denylist akan mengembalikan semua modifikasi Magisk</string>
     <string name="settings_denylist_error">Fitur ini membutuhkan %1$s untuk diaktifkan</string>
     <string name="settings_denylist_config_title">Konfigurasi DenyList</string>
     <string name="settings_denylist_config_summary">Pilih proses yang akan disertakan pada denylist</string>
+=======
+    <string name="settings_magiskhide_summary">Sembunyikan Magisk dari berbagai bentuk pendeteksian</string>
+>>>>>>> parent of 65b0ea792 (MagiskHide is no more)
     <string name="settings_hosts_title">Host systemless</string>
     <string name="settings_hosts_summary">Dukungan host secara systemless untuk aplikasi pemblokir iklan</string>
     <string name="settings_hosts_toast">Menambahkan modul host systemless</string>

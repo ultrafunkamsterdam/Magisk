@@ -134,6 +134,7 @@
     <string name="settings_update_stable">Stabil</string>
     <string name="settings_update_beta">Beta</string>
     <string name="settings_update_custom">Benutzerdefiniert</string>
+<<<<<<< HEAD
     <string name="settings_update_custom_msg">Benutzerdefinierte URL einfügen</string>
     <string name="settings_zygisk_summary">Teile von Magisk im Zygoten-Daemon ausführen</string>
     <string name="settings_denylist_title">Verweigerungsliste erzwingen</string>
@@ -141,6 +142,10 @@
     <string name="settings_denylist_error">Für diese Funktion muss %1$s aktiviert sein</string>
     <string name="settings_denylist_config_title">Verweigerungsliste konfigurieren</string>
     <string name="settings_denylist_config_summary">Auswahl der Prozesse, die in die Verweigerungsliste aufgenommen werden sollen</string>
+=======
+    <string name="settings_update_custom_msg">Eine benutzerdefinierte URL eingeben</string>
+    <string name="settings_magiskhide_summary">Versteckt Magisk vor diversen Entdeckungsmethoden</string>
+>>>>>>> parent of 65b0ea792 (MagiskHide is no more)
     <string name="settings_hosts_title">Systemlose Hosts-Datei</string>
     <string name="settings_hosts_summary">Systemlose Unterstützung für Werbeblocker</string>
     <string name="settings_hosts_toast">Systemloses Hosts-Modul hinzugefügt</string>

@@ -133,6 +133,7 @@
     <string name="settings_update_channel_title">Perditeso kanalin</string>
     <string name="settings_update_stable">E qëndrueshme</string>
     <string name="settings_update_beta">Beta</string>
+<<<<<<< HEAD
     <string name="settings_update_custom">Kanal me porosi</string>
     <string name="settings_update_custom_msg">Fut një URL të personalizuar</string>
     <string name="settings_zygisk_summary">Drejtoni pjesë të Magisk në demonin zygote</string>
@@ -147,6 +148,17 @@
     <string name="settings_app_name_hint">Emri i ri</string>
     <string name="settings_app_name_helper">Aplikacioni do të ripaketohet me këtë emër</string>
     <string name="settings_app_name_error">Format i pavlefshëm</string>
+=======
+    <string name="settings_update_custom">Kanali i personalizuar</string>
+    <string name="settings_update_custom_msg">Vendos një URL të personalizuar</string>
+    <string name="settings_magiskhide_summary">Fshih Magisk nga forma të ndryshme të zbulimit</string>
+    <string name="settings_hosts_title">Pritës pa sistem</string>
+    <string name="settings_hosts_summary">Mbështetja e hostëve pa sistem për aplikacionet Adblock</string>
+    <string name="settings_hosts_toast">Moduli i pritur i sistemit pa sistem</string>
+    <string name="settings_app_name_hint">Emër i ri</string>
+    <string name="settings_app_name_helper">Aplikacioni do të ripaketohet në këtë emër</string>
+    <string name="settings_app_name_error">Formati i pavlefshëm</string>
+>>>>>>> parent of 65b0ea792 (MagiskHide is no more)
     <string name="settings_su_app_adb">Aplikacionet dhe ADB</string>
     <string name="settings_su_app">Vetëm aplikacionet</string>
     <string name="settings_su_adb">Vetëm ADB</string>

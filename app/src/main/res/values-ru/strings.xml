@@ -135,12 +135,16 @@
     <string name="settings_update_beta">Beta канал</string>
     <string name="settings_update_custom">Сторонний канал</string>
     <string name="settings_update_custom_msg">Укажите ссылку</string>
+<<<<<<< HEAD
     <string name="settings_zygisk_summary">Запускать компоненты Magisk в zygote процессе</string>
     <string name="settings_denylist_title">Активировать DenyList</string>
     <string name="settings_denylist_summary">Все изменения, внесённые Magisk-ом, будут скрыты от процессов, отмеченных в DenyList</string>
     <string name="settings_denylist_error">Для работы функции необходимо запустить %1$s</string>
     <string name="settings_denylist_config_title">Настройка DenyList</string>
     <string name="settings_denylist_config_summary">Отметьте процессы для скрытия в DenyList</string>
+=======
+    <string name="settings_magiskhide_summary">Скрывать Magisk от различных обнаружений</string>
+>>>>>>> parent of 65b0ea792 (MagiskHide is no more)
     <string name="settings_hosts_title">Внесистемный hosts файл</string>
     <string name="settings_hosts_summary">Поддержка внесистемного hosts файла для приложений, блокирующих рекламу</string>
     <string name="settings_hosts_toast">Модуль для внесистемного hosts файла установлен</string>

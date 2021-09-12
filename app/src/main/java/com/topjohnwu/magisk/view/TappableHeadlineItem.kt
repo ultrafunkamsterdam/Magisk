@@ -20,6 +20,14 @@ sealed class TappableHeadlineItem : DiffRvItem<TappableHeadlineItem>() {
 
     // --- objects
 
+<<<<<<< HEAD
+=======
+    object Hide : TappableHeadlineItem() {
+        override val title = R.string.magiskhide
+        override val icon = R.drawable.ic_hide_md2
+    }
+
+>>>>>>> parent of 65b0ea792 (MagiskHide is no more)
     object ThemeMode : TappableHeadlineItem() {
         override val title = R.string.settings_dark_mode_title
         override val icon = R.drawable.ic_day_night
